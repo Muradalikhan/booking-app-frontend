@@ -1,21 +1,16 @@
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route,
-  Outlet,
-} from "react-router-dom";
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import Register from "./pages/Register";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Navbar from "./components/navbar/Navbar";
+import Home from "./pages/home/Home";
+import Login from "./pages/auth/Login";
+import Register from "./pages/auth/Register";
+import Header from "./components/header/Header";
 
 const Layout = () => {
   return (
     <>
       <Navbar />
+      <Header />
       <Outlet />
-      <Footer />
     </>
   );
 };
