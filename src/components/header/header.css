@@ -77,12 +77,12 @@
   color: lightgrey;
 }
 
-.date{
+.date {
   position: absolute;
   top: 50px;
 }
 
-.options{
+.options {
   position: absolute;
   top: 50px;
   background-color: white;
@@ -92,14 +92,14 @@
   padding: 10px;
 }
 
-.optionsItem{
+.optionsItem {
   width: 200px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
 }
 
-.optionCounter{
+.optionCounter {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -107,11 +107,19 @@
   color: black;
 }
 
-.optionCounterBtn{
+.optionCounterNumber {
+  width: 20px;
+}
+
+.optionCounterBtn {
   width: 30px;
   height: 30px;
   border: 1px solid #0071c2;
   color: #0071c2;
   cursor: pointer;
   background-color: white;
+}
+
+.optionCounterBtn:disabled{
+  cursor: not-allowed;
 }
