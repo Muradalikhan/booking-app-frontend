@@ -1,0 +1,23 @@
+.footer {
+  width: 100%;
+  max-width: 1024px;
+  font-size: 12px;
+}
+
+.fList {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.fLists {
+  margin-bottom: 50px;
+}
+
+.footerText {
+  font-size: 14px;
+  padding: 20px 0;
+  text-align: center;
+  opacity: 0.6;
+}
