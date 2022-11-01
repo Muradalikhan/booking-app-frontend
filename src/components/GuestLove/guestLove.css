@@ -1,0 +1,44 @@
+.gLove {
+  display: flex;
+  width: 100%;
+  max-width: 1024px;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.gLoveItem {
+  flex: 1;
+}
+
+.gLoveImg {
+  width: 100%;
+  object-fit: cover;
+  height: 260px;
+  border-radius: 10px;
+}
+
+.gLoveItem>h2{
+    font-size: 18px;
+}
+
+.gLoveItem>p{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.gLoveItem>:nth-child(4){
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.gLoveRating{
+    display: flex;
+    gap: 20px;
+}
+
+.gLoveRating>button{
+    border: none;
+    background-color: #003580;
+    color: white;
+    font-weight: 500;
+}
